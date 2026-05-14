@@ -470,6 +470,66 @@ span {
     filter: invert(1);
 }
 
+/* Instructors Section */
+.instructors {
+    padding: 120px 0;
+    background: #ffffff;
+}
+
+.instructor-wrapper {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.instructor-image img {
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--glass-border);
+}
+
+.instructor-content h3 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.instructor-role {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.instructor-bio {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.instructor-stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.stat-item strong {
+    display: block;
+    font-size: 2rem;
+    color: var(--primary);
+    font-family: 'Outfit', sans-serif;
+}
+
+.stat-item span {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    -webkit-text-fill-color: var(--text-muted);
+}
+
 /* FAQ Section */
 .faq {
     padding: 100px 0;
