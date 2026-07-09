@@ -23,6 +23,11 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-light);
+    background-image: linear-gradient(rgba(251, 249, 248, 0.93), rgba(251, 249, 248, 0.93)), url('office_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: var(--text-main);
     line-height: 1.6;
     overflow-x: hidden;
